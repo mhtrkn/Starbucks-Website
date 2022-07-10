@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+section {
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  background-repeat: no-repeat;
+}
+
+section .circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00704a;
+  clip-path: circle(1000px at right 1300px);
+}
+
+.content {
+  position: relative;
+  max-width: 1650px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.content .textBox {
+  position: relative;
+  max-width: 600px;
+  margin-right: 250px;
+  margin-top: 120px;
+  margin-left: 300px;
+}
+
+.content .textBox h2 {
+  color: #333;
+  font-size: 4em;
+  margin-bottom: 10px;
+  line-height: 1.0em;
+  font-weight: 700;
+}
+
+.content .textBox p {
+  margin-top: 40px;
+  color: #333;
+  font-size: large;
+  font-weight: 500
+}
+
+.content .textBox span {
+  color: #00704a;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.content .textBox a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  color: #333;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.imgBox {
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 100px;
+}
+
+.imgBox img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.learn-more {
+  position: relative;
+  border: 1px solid #00704a;
+  padding: 5px 15px;
+  margin: 35px auto;
+  border-radius: 20px;
+  background-color: #00704a;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  cursor: pointer;
+}
