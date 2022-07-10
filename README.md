@@ -41,3 +41,5 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Example Output
 ###
+![ss](https://user-images.githubusercontent.com/80522648/178153038-6ebe8c25-d2b6-4821-9761-3ca77ae9c56a.png)
+
